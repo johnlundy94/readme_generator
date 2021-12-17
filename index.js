@@ -66,7 +66,7 @@ const promptUser = () => {
     {
       type: "input",
       name: "instal",
-      message: "What are the steps to instal?",
+      message: "What are the steps to install?",
     },
     {
       type: "input",
@@ -132,7 +132,7 @@ const generateREADME = (answers) =>
   
   ## Table Of Contents
   - [Description](#description)
-  - [Instal](#instal)
+  - [Install](#install)
   - [Use](#use)
   - [Contribute](#contribute)
   - [Credits](#credits)
@@ -140,8 +140,8 @@ const generateREADME = (answers) =>
   - [Tests](#tests)
   - [Questions](#questions)
 
-  ## Instal
-  ${answers.instal}
+  ## Install
+  ${answers.install}
   
   ## Use
   ${answers.usage}
